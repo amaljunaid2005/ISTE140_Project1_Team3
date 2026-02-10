@@ -1,5 +1,6 @@
 # ISTE140 Project1 Team3: Pawmate
 Active Link: https://people.rit.edu/aj9637/Project1_AmalJunaid_Team_%233/
+
 Pawmate, an informative desktop website about dogs and different breeds with educational linked articles, a page for each breed and an interactive quiz.
 
 ## Purpose
