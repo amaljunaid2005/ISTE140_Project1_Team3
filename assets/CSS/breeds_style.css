@@ -1,0 +1,213 @@
+
+body {
+  background-color: #fffaf0;
+  font-family: 'Poppins', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: #444; 
+}
+
+main {
+  flex: 1;/*for footer*/
+}
+
+/*header*/
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #5D4037;
+  padding: 20px 0 10px 0;
+  margin: 0;
+}
+
+
+h1 span {
+  color: #d4a574;
+}
+
+/*navigation bar (container aligns the entire bar)*/
+
+.navbar-container {
+  display: flex;
+  justify-content: center; 
+}
+
+.navbar {
+  list-style: none;
+  display: inline-flex;
+  gap: 30px;
+  background-color: #fff;
+  padding: 12px 28px;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+
+.navbar li {
+  position: relative;
+}
+
+/*how it looks when mouse not hovering over each link*/
+.navbar a {
+  text-decoration: none;
+  color: #2d1b0f;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+/*how it looks when mouse is hovering over each link*/
+.navbar a:hover{
+  background-color: #f8f6f1;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  color: #7a5b3a;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background-color: #fff;
+  min-width: 230px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.dropdown-content li {
+  list-style: none;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 20px;
+  color: #2d1b0f;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f8f6f1;
+  color: #7a5b3a;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*content arranged on the left side of the page*/
+
+.content{
+  display: flex;
+  gap: 40px;
+  padding: 0 40px; 
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start; 
+}
+
+#content-left {
+  flex: 2; /*so that left side of page takes up more space than summary on right*/
+}
+
+#content-left h2 {
+  color: #333;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+/*content arranged on the right side of the page*/
+
+#content-right {
+  flex: 1;
+  background-color: #FEFBF6; 
+  padding: 25px;
+  border-radius: 15px; /* for the box*/
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05); /
+}
+
+#content-right img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+#content-right h3 {
+  text-align: center;
+  color: #5D4037;
+  margin-top: 0;
+}
+
+.summarytable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.summarytable td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #F0EBE3;
+}
+
+/* for the footer */
+
+.footer {
+  background-color: #d1670a; 
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px; 
+  bottom:0;
+}
+
+.socialmedia a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+/*For the PerfectPaw content and table*/
+
+#perf-content{
+  color:#2C1C0D;
+  text-align: center;
+  padding-left: 10%;
+  padding-right:10%;
+}
+#quiz-link{
+  align-self: center;
+  color:#d1670a
+}
+
+.perf-table, .perf-table td, .perf-table th {  
+  border: 1px solid #5D4037;
+  text-align: left;
+}
+
+.perf-table {
+  background-color: white;
+  border-collapse: collapse;
+  width:80%;
+  align-self: center;
+}
+
+#perf-table th, #perf-table td {
+  padding: 10px;
+}
+
+
+
