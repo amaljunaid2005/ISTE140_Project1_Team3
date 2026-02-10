@@ -9,13 +9,13 @@ Created as an initial project for my ISTE140 course, focused on UI/UX design pri
 This project was created by 4 team members: Grishma Bhandari, Reema Maryam Naheem, Madheeha Sameen as well as myelf.
 
 ## Features
-# Dog Breed Pages
+### Dog Breed Pages
 The website focused on 4 breeds, each with a page that includes a general description of the dog as well as certain facts and statistics on the right.
-# Summary Table
+### Summary Table
 A summary page was included with a table that compares the 4 breeds in terms of lifestyle requirements, size and other such factors.
-# PerfectPaw Quiz
+### PerfectPaw Quiz
 The summary page includes a link to a quiz that allows the user to give certain information about their own daily lifestyle and recieve the name of a breed that best suites their needs and what they can provide.
-# Educational Articles
+### Educational Articles
 The home page also includes links to helpful articles about dog care.
 
 ## Technologies Used
